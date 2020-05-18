@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31bac20c-a645-4006-8aed-a94c2ce99cc1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/app-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/app-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="31bac20c-a645-4006-8aed-a94c2ce99cc1" name="Default" comment="2020年update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/control/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/control/book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/control/video.py" beforeDir="false" afterPath="$PROJECT_DIR$/control/video.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/control/weather.py" beforeDir="false" afterPath="$PROJECT_DIR$/control/weather.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +22,19 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Herman &lt;103110772@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:/heyuman/python-1.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1bwAn3jsBy9iAcoTPRdCSHHQk9e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,7 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../py37venv" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -117,12 +121,31 @@
       <workItem from="1589530155063" duration="1139000" />
       <workItem from="1589532959298" duration="68000" />
       <workItem from="1589533310175" duration="2513000" />
-      <workItem from="1589767184804" duration="10206000" />
+      <workItem from="1589767184804" duration="11330000" />
     </task>
+    <task id="LOCAL-00001" summary="2020年update">
+      <created>1589778612431</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589778612431</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2020年update">
+      <created>1589778914558</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589778914558</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020年update" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="380" y="0" key="#app-server" timestamp="1589533707983">
@@ -137,22 +160,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="68" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1589533699034" />
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1589779567183">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589779567183" />
     <state width="1364" height="620" key="DebuggerActiveHint" timestamp="1589770915510">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1364" height="620" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1589770915510" />
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1589767818905">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1589778578392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1589767818905" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1589778578392" />
     <state x="281" y="0" width="957" height="728" key="EnvironmentVariablesDialog" timestamp="1589533592578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="281" y="0" width="957" height="728" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589533592578" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589763001288">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589778701791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589763001288" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589778701791" />
     <state width="1322" height="164" key="GridCell.Tab.0.bottom" timestamp="1589778486776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -185,10 +212,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="279" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589776153112" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1589768075903">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1589779660615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589768075903" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589779660615" />
     <state x="537" y="270" key="VCS.ChangelistChooser" timestamp="1589767476004">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -197,10 +224,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1589768238822" />
-    <state x="475" y="273" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589534274822">
+    <state x="475" y="273" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589778631061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="475" y="273" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1589534274822" />
+    <state x="475" y="273" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1589778631061" />
+    <state x="394" y="136" key="git4idea.merge.GitPullDialog" timestamp="1589779124150">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="394" y="136" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1589779124150" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/app_server$video.coverage" NAME="video Coverage Results" MODIFIED="1589768629492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
