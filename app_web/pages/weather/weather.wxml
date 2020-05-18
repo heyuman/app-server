@@ -1,0 +1,36 @@
+<view class="wrap">
+  <!-- <image></image> -->
+    <view class="search" bindtap="bindBeginCityView">
+        <icon class="searchcion" size='20' type='search'></icon>
+        <input disabled placeholder="搜索" value="{{searchValue}}" />
+    </view>
+  <view class="content">
+    <image class='background-image' src='../img/weather_bg.png'></image>
+    <view class="today" bindtap="showDetailPage">
+      <text class="cityname">{{CityName}}</text>
+      <view class="temperature">
+        <text>{{RealtimeWeather.realtem}}</text>
+      </view>
+      <view class="desc">
+        <text>{{RealtimeWeather.weather[1]}}</text>
+        <text>{{RealtimeWeather.shidu[1]}} </text>
+      </view>
+      <view class="more">
+        <text>{{RealtimeWeather.pm}}</text>
+        <text>{{RealtimeWeather.kongq}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="feature">
+    <view class="day" wx:for="{{FutureWeather}}" wx:key="dayIdx">
+      <view class="date">{{item.temdate}}</view>
+      <view class="desc">
+        <text>{{item.weather}}</text>
+        <text>{{item.wind}}</text>
+      </view>
+      <view class="temperature">
+        <text>{{item.lowtem}}℃~{{item.hightem}}℃</text>
+      </view>
+    </view>
+  </view>
+</view>

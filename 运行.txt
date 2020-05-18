@@ -1,0 +1,3 @@
+1、在cmd中运行服务端
+F:\Herman\python\py37venv\Scripts\python.exe F:/Herman/python/Project/python-weixin/app-server/app.py
+2、打开小程序app_web

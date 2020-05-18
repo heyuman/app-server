@@ -1,0 +1,135 @@
+/* pages/detail/detail.wxss */
+
+/* ------- wrap --------- */
+.search {
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+  margin: 5rpx;
+}
+.searchcion {
+  margin: 10rpx 10rpx 10rpx 290rpx;
+  position: absolute;
+}
+.search input {
+  margin-left: 340rpx;
+  height: 60rpx;
+  border-radius: 5px;
+}
+
+
+
+/**/
+
+.background-image {
+  position: absolute; /*绝对定位，可以使用margin*/
+  width: 100%;
+  height: 480rpx;
+}
+
+.content {
+  /* position: absolute; */
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.content .cityname {
+  /* display:flex; */
+  align-items: center;
+  justify-content: center;
+  padding-top: 10rpx;
+}
+
+/* ------- today --------- */
+
+.today {
+  padding: 0;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 0, 0);
+}
+
+.today .temperature {
+  font-size: 150rpx;
+  padding-left: 40rpx;
+}
+
+.today .desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.today .desc text {
+  font-size: 35rpx;
+  line-height: 40rpx;
+  margin-top: 20rpx;
+}
+
+.today .more {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.today .more text {
+  padding: 15rpx 20rpx;
+}
+
+.line {
+  padding: 20rpx 300rpx;
+  border-bottom: 1px solid rgb(218, 213, 213);
+}
+
+/* ------- feature --------- */
+
+.feature {
+  color: rgb(0, 0, 0);
+  font-size: 30rpx;
+  margin: 10rpx;
+  margin-top: 20rpx;
+}
+
+.feature .day {
+  margin: 5rpx;
+  padding: 10rpx 10rpx;
+  /*border-radius: 20rpx;*//* background: #fff; */
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid rgb(218, 213, 213);
+}
+
+.feature .day .date {
+  line-height: 70rpx;
+  margin-left: 20rpx;
+  width: 200rpx;
+}
+
+.feature .day .desc {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20rpx;
+  width: 250rpx;
+  text-align: center;
+}
+
+.feature .day .desc text {
+  line-height: 28rpx;
+  margin-left: 5rpx;
+  padding: 5rpx 5rpx;
+}
+
+.feature .day .temperature {
+  line-height: 60rpx;
+  width: 250rpx;
+  text-align: center;
+}
+
+/* .feature .day .temperature text {
+   display: flex;
+   margin-right: 10rpx;
+} */

@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 r = requests.get('https://www.qidian.com/')
 r.encoding = 'utf-8'
-soup = BeautifulSoup(r.text, from_encoding='utf-8')
+soup = BeautifulSoup(r.text, "html.parser")  # from_encoding='utf-8' 本来默认就是这个没有必要再添加
 
 
 def free_func():

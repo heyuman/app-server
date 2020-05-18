@@ -1,0 +1,71 @@
+<!--pages/video/pages/detailed/detailed.wxml-->
+<view class='detailed'>
+  <view class='title'>
+    <text>{{detailed.title}}</text>
+    <text class='grade' style='color:#ffb400;' wx:if='{{detailed.grade}}'>{{detailed.grade}}</text>
+  </view>
+  <view class='cover-box'>
+    <view class='cover' wx:if='{{detailed.cover}}'>
+      <image src='{{detailed.cover}}'></image>
+    </view>
+    <view class='jianjie'>
+      <view class='info' wx:for='{{detailed.info}}'>
+        <text>{{item}}</text>
+      </view>
+    </view>
+  </view>
+  <text class='sub-title' wx:if='{{detailed.synopsis}}'>剧情简介 </text>
+  <text class='synopsis' wx:if='{{detailed.synopsis}}'>{{detailed.synopsis}}</text>
+  <text class='sub-title' wx:if='{{detailed.actors}}'>演职员</text>
+  <scroll-view class='actor-container' scroll-x wx:if='{{detailed.actors}}'>
+    <view class='actor' wx:for='{{detailed.actors}}'>
+      <navigator url="/pages/video/actor/actor?cover={{item.img}}&url={{item.url}}" hover-class="navigator-hover">
+        <view class='actor-img'>
+          <image src='{{item.img}}'></image>
+        </view>
+        <text class='actor-name'>{{item.name}}</text>
+        <text class='actor-status'>{{item.status}}</text>
+      </navigator>
+    </view>
+  </scroll-view>
+  <text class='sub-title' wx:if='{{detailed.photoList}}'>剧照</text>
+  <scroll-view class='photo-container' scroll-x wx:if='{{detailed.photoList}}'>
+    <view class='photo' wx:for='{{detailed.photoList}}'>
+      <image src='{{item}}'></image>
+    </view>
+  </scroll-view>
+  <text class='sub-title' wx:if='{{detailed.aboutmovies}}'>相关电影</text>
+  <scroll-view class='aboutmovies-container' scroll-x wx:if='{{detailed.aboutmovies}}'>
+    <view class='aboutmovies' wx:for='{{detailed.aboutmovies}}'>
+      <navigator url="/pages/video/detailed/detailed?cover={{item.cover}}&url={{item.url}}" hover-class="navigator-hover">
+        <view class='aboutmovies-img'>
+          <image src='{{item.cover}}'></image>
+        </view>
+        <text class='aboutmovies-name'>{{item.title}}</text>
+      </navigator>
+    </view>
+  </scroll-view>
+  <text class='sub-title' wx:if='{{detailed.comment}}'>精评</text>
+  <view class='comment-container' wx:if='{{detailed.comment}}'>
+    <view class='comment' wx:for='{{detailed.comment}}'>
+      <view class='comment-info'>
+        <view class='comment-info-nickname'>
+          <text>{{item.nickname}}</text>
+        </view>
+        <view class='comment-info-like'>
+          <text>{{item.like}}</text>
+          <text style='color:#37a;'>有用</text>
+        </view>
+      </view>
+      <view class='comment-content'>
+        <text>{{item.content}}</text>
+      </view>
+      <view class='comment-time'>
+        <text>{{item.time}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='detaild-loading' hidden='{{detaild_loading_show}}'> 
+  <image src='../../../img/5-121204193934-50.gif'></image>
+</view>

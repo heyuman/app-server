@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>欢迎页面</title>
+        <style type="text/css">
+            html { filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+            body { margin:0; padding:0;}
+            .welcome { width:628px; height:467px; position:relative; overflow:hidden; z-index:0;}
+            .page { width:628px; height:467px; overflow:hidden;}
+            .page .btn { overflow:hidden; z-index:10;}
+            .page .btn a { display:block; overflow:hidden; cursor:pointer; text-decoration:none; background:none; outline:none;}
+            .page .btn a img { display:block; border:none;}
+            .page-1 { background:url(./1.png) 0 0 no-repeat}
+            .page-2 { background:url(./2.png) 0 0 no-repeat}
+            .next { width:108px; height:44px; position:absolute;bottom:11px; left:260px;}
+            .next a { width:432px; height:44px;}
+            .next a:hover { margin-left:-108px;}
+            .next a:active { margin-left:-216px;}
+            .final { width:108px; height:44px; position:absolute;bottom:11px; left:260px;}
+            .final a { width:432px; height:44px;}
+            .final a:hover { margin-left:-108px;}
+            .final a:active { margin-left:-216px;}
+            .close { width:40px; height:30px; position:absolute; top:0; right:0;}
+            .close a { width:160px; height:30px;}
+            .close a:hover { margin-left:-40px;}
+            .close a:active { margin-left:-80px;}
+        </style>
+    </head>
+    <body ondragstart ="return false" >
+        <div class="welcome">
+            <!-- page 1-->
+            <div id="page-1" class="page page-1">
+                <img style="position:absolute;top:110px; left:0px;" src="./1.gif" />
+                <div class="btn next">
+                    <a href="javascript:switchPage(2);" id="navToNextPage"><img class="fix" src="./next.png" /></a>
+                </div>
+            </div>
+            <span>
+                <p>
+                    <b>span的孙节点</b>
+                </p>
+                <p>我只是来测试的1</p>
+            </span>
+            <span>我只是来测试的2</span>
+            <!-- page 2-->
+            <div id="page-2" class="page page-2" style="display:none;">
+                <img style="position:absolute;top:110px; left:0px;" src="./2.gif" />
+                <div class="btn final">
+                    <a href="javascript:close(this);"><img class="fix" src="./final.png" /></a>
+                </div>
+                <div class="btn close">
+                    <a href="javascript:close(this);"><img class="fix" src="./close.png" /></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

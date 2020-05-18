@@ -30,7 +30,7 @@ def gethistoryweather(options):
         class_left = SoupStrainer(class_="left")# 帅选出class_="right"的内容，节约内存---历史的数据
         soup_left = BeautifulSoup(r.text, parse_only=class_left, from_encoding='utf-8')
         class_right = SoupStrainer(class_="right")  # 帅选出class_="right"的内容，节约内存---历史的数据
-        soup_right = BeautifulSoup(r.text, parse_only=class_right, from_encoding='utf-8')
+        soup_right = BeautifulSoup(r.text, parse_only=class_right, from_encoding='utf-8',exclude_encodings='lxml')
         cityweeks = soup_right.select('.top h1')[0].string  # 获取城市名称
         cityname = cityweeks.split("天气")[0]
         if cityname != post_cityname:

@@ -1,0 +1,22 @@
+/* pages/index/index.wxss */
+#indexa{
+  height:100vh
+}
+#indexb{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  width: 100%;
+  height: 100%;
+  flex-direction: column
+}
+image{
+  height: 60rpx;
+  width:60rpx; 
+}
+text{
+  font-size: 13px;
+  font-family:microsoft yahei;
+  color: black
+  
+}

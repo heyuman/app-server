@@ -1,0 +1,38 @@
+<!--pages/video/pages/actor/actor.wxml-->
+<view class='actor'>
+  <view class='title'>
+    <text>{{actors.title}}</text>
+  </view>
+  <view class='cover-box'>
+    <view class='cover' wx:if='{{actors.actors_head}}'>
+      <image src='{{actors.actors_head}}'></image>
+    </view>
+    <view class='jianjie'>
+      <view class='info' wx:for='{{actors.info}}'>
+        <text>{{item}}</text>
+      </view>
+    </view>
+  </view>
+  <text class='sub-title' wx:if='{{actors.actors}}'>演员简介 </text>
+  <text class='synopsis' wx:if='{{actors.actors}}'>{{actors.actors}}</text>
+  <text class='sub-title' wx:if='{{actors.photos}}'>演员照片</text>
+  <scroll-view class='photo-container' scroll-x wx:if='{{actors.photos}}'>
+    <view class='photo' wx:for='{{actors.photos}}'>
+      <image src='{{item}}'></image>
+    </view>
+  </scroll-view>
+  <text class='sub-title' wx:if='{{actors.aboutmovies}}'>相关电影</text>
+  <scroll-view class='aboutmovies-container' scroll-x wx:if='{{actors.aboutmovies}}'>
+    <view class='aboutmovies' wx:for='{{actors.aboutmovies}}'>
+      <!-- <navigator url="/pages/video/pages/detailed/detailed?cover={{item.cover}}&url={{item.url}}" hover-class="navigator-hover"> -->
+        <view class='aboutmovies-img'>
+          <image src='{{item.cover}}' data-item="{{item}}" bindtap="test"></image>
+        </view>
+        <text class='aboutmovies-name'>{{item.title}}</text>
+      <!-- </navigator> -->
+    </view>
+  </scroll-view>
+</view>
+<view class='actor-loading' hidden='{{actor_loading_show}}'> 
+  <image src='../../../img/5-121204193934-50.gif'></image>
+</view>
